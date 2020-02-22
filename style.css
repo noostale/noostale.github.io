@@ -1,0 +1,68 @@
+/*particolarità*/
+#intro {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.linea {
+    color: white;
+    display: inline;
+}
+
+/*Sfondo*/
+
+body {
+     background-color: #082B45;
+}
+
+/*Menu*/
+nav {
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+/*Headings*/
+/*logo*/
+h1 {
+    color: #549E7C;
+    font-size: 60px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    color: #549E7C;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*Paragrafi*/
+
+p {
+    text-align: left;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/*responsive design*/
+@media (max-width:1024px) {
+    #intro{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h2{
+        text-align: center;
+    }
+}
