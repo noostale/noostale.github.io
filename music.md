@@ -4,4 +4,5 @@ title: Music
 ---
 ## {{page.title}}
 Good old music.
-![Abbey Road](/images/AbbeyRoad.jpg){:class="img-responsive"}
+<img src="/images/AbbeyRoad.jpg">
+
