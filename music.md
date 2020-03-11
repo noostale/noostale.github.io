@@ -4,4 +4,4 @@ title: Music
 ---
 ## {{page.title}}
 Good old music.
-![Abbey Road](/images/AbbeyRoad.jpg)
+![Abbey Road](/images/AbbeyRoad.jpg){:class="img-responsive"}
