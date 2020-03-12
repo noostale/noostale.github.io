@@ -3,6 +3,5 @@ layout: default
 title: Art
 ---
 ## {{page.title}}
-<p><object type="image/svg+xml" data="images/instagram.svg" height="200 px">
-    Your browser does not support SVG
-</object></p>
+
+<img class="album" src="/images/hopper.jpg">
