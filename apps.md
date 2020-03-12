@@ -2,4 +2,4 @@
 layout: default
 title: Apps
 ---
-<h2>{{page.title}}</h2>
+## {{page.title}}
