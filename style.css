@@ -20,7 +20,7 @@
 .logo {
     
     color: #549E7C;
-    font-size: 20px;
+    font-size: 60px;
     font-family: "Courier New", Courier, monospace;
     font-weight: bold;
     display: block;
@@ -77,7 +77,6 @@ p {
     }
     
     .logo {
-        font-size: 5px;
         margin-left: 5%;
         margin-right: 5%;
     }
