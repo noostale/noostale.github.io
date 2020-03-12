@@ -6,7 +6,7 @@ title: Home
 
 ## Benvenuto!
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit, 
-    erat vitae egestas sodales, tellus libero malesuada augue, id vehicula 
+erat vitae egestas sodales, tellus libero malesuada augue, id vehicula 
     ex ante et sapien. Curabitur bibendum congue porttitor. Ut efficitur 
     congue ipsum in rutrum. Nulla facilisi. Donec malesuada, metus a vehicula 
     iaculis, quam urna vehicula lorem, sit amet consequat nisl ante eget ante. 
