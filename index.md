@@ -7,12 +7,3 @@ title: Home
 ## Benvenuto!
 Salve, in questo mio sito personale mi diletto nella programmazione web tentando di conciliare la mia passione per l'informatica assieme a quella per l'arte.
 Buona permanenza!
-
-
-
-
-
-
-
----
-Sito costruito con Jekyll ospitato su Github 
