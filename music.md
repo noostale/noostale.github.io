@@ -12,3 +12,5 @@ title: Music
 <p style="text-align:center">Museica - Caparezza (2014)</p>
 <img class="album" src="/images/innuendo.jpg">
 <p style="text-align:center">Innuendo - Queen (1991)</p>
+<img class="album" src="/images/velvet.jpg">
+<p style="text-align:center">The Velvet Underground & Nico - The Velvet Underground (1967)</p>
