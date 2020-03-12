@@ -5,6 +5,6 @@ title: Music
 ## {{page.title}}
 Good old music.
 
-<img src="/images/AbbeyRoad.jpg">
+<img src="/images/AbbeyRoad.jpg" class="album">
 
 ok
