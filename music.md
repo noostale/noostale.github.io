@@ -3,8 +3,8 @@ layout: default
 title: Music
 ---
 ## {{page.title}}
-Good old music.
 
 <img class="album" src="/images/AbbeyRoad.jpg">
+<img class="album" src="/images/moon.jpg">
 
-###Abbey Road
+## Abbey Road
