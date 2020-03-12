@@ -4,8 +4,8 @@ title: Home
 ---
 <p id="intro">Questa è la home page del sito, qui sotto troverai tutti i miei post.</p>
 
-<h2>Benvenuto!</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit, 
+## Benvenuto!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit, 
     erat vitae egestas sodales, tellus libero malesuada augue, id vehicula 
     ex ante et sapien. Curabitur bibendum congue porttitor. Ut efficitur 
     congue ipsum in rutrum. Nulla facilisi. Donec malesuada, metus a vehicula 
@@ -17,4 +17,4 @@ title: Home
     Maecenas sodales tortor pellentesque, suscipit nulla non, fringilla nisi. 
     Vestibulum sit amet porttitor lectus. Mauris egestas quam scelerisque, 
     tincidunt metus ut, hendrerit dolor. Duis maximus vestibulum nisl, et venenatis 
-    libero porta vestibulum.</p>
+    libero porta vestibulum.
