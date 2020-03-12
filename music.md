@@ -6,5 +6,3 @@ title: Music
 
 <img class="album" src="/images/AbbeyRoad.jpg">
 <img class="album" src="/images/moon.jpg">
-
-## Abbey Road
