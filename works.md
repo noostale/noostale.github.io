@@ -2,7 +2,6 @@
 layout: default
 title: Works
 ---
-## {{page.title}}
 ## Web:
 Villa Grancassa: <a href="https://www.villagrancassa.it/">https://www.villagrancassa.it/</a>
 
