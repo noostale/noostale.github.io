@@ -1,2 +1,2 @@
 # noostale.github.io
-https://noostale.github.io/
+Link: https://noostale.github.io/
