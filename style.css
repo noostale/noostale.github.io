@@ -69,6 +69,24 @@ p {
 }
 
 
+ul {
+    text-align: left;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ol {
+    text-align: left;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
 /*responsive design*/
 @media (max-width:1024px) {
     #intro{
