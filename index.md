@@ -8,6 +8,16 @@ title: Home
 Salve, in questo sito web prettamente personale mi diletto nella programmazione web ed esprimo alcuni miei pensieri. Il sito è intitolato Noostale essendo questo il nickname che mi porto dietro da una vita.
 
 Cosiglio vivamente la lettura di [Il Post](https://www.ilpost.it/).
-Attualmenete sono interessato al funzionamento e alle possibili applicazioni delle blockchain.
+
+Attualmenete sono interessato al funzionamento e alle possibili applicazioni delle blockchain in ambito economico e videoludico.
+
+Progetti ed organizzazioni supportate:
+- Ethereum
+- RISC-V
+- Free Software Fondation
+- Rust Programming Language
+- Mozilla
+
+
 
 Il sito è hostato su Github e realizzato per mezzo di Jekyll
