@@ -100,8 +100,8 @@ ol {
     }
 
     p {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     h2{
@@ -109,12 +109,12 @@ ol {
     }
 
     ul {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
     ol {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
