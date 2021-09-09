@@ -16,13 +16,13 @@ title: Test
 
     var tempo = 0;
 
-    function start(){
-        tempo += 1;
+    function start() {
+        tempo = tempo + 1;
         document.getElementById("orologio").innerHTML = tempo;
     }
 
-    funcion interval(){
-        setInterval(start, 10);
+    funcion interval() {
+        setInterval(start, 1000);
     }
 
     
