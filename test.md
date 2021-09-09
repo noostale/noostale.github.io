@@ -4,7 +4,11 @@ title: Test
 ---
 
 <script>
+
+    // CONTATORE
+    
     var x = 0;
+    
     function piu(){
         x = x + 1;
         document.getElementById("numero").innerHTML = x;
@@ -14,6 +18,8 @@ title: Test
         document.getElementById("numero").innerHTML = x;
     }
 
+    // OROLOGIO
+
     var tempo = 0;
 
     function start() {
@@ -21,14 +27,20 @@ title: Test
         document.getElementById("orologio").innerHTML = tempo;
     }
 
-    
-
-    function interval() {
-        setInterval(start, 1000);
+    function stop() {
+        clearInterval(Interval);
     }
 
-    
+    function reset() {
+        clearInterval(Interval);
+        tempo = 0;
+    }
 
+    var interval;
+
+    function interval() {
+        interval = setInterval(start, 1000);
+    }
 
 </script>
 
