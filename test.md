@@ -40,6 +40,7 @@ title: Test
     }
 
     function interval() {
+        clearInterval(interval);
         interval = setInterval(start, 1000);
     }
 
