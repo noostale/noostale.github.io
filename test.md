@@ -7,12 +7,12 @@ title: Test
 <script>
     var x = 0;
     function piu(){
-        document.getElementById("numero").innerHTML = x;
         x = x + 1;
+        document.getElementById("numero").innerHTML = x;
     }
     function meno(){
-        document.getElementById("numero").innerHTML = x;
         x = x - 1;
+        document.getElementById("numero").innerHTML = x;
     }
 </script>
 
