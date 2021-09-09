@@ -3,7 +3,6 @@ layout: default
 title: Test
 ---
 
-
 <script>
     var x = 0;
     function piu(){
@@ -17,5 +16,5 @@ title: Test
 </script>
 
 <button type="button" onclick='piu()'>+</button>
-<button type="button" onclick='meno()'>-</button>
 <p id="numero">0</p>
+<button type="button" onclick='meno()'>-</button>
