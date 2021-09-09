@@ -27,6 +27,8 @@ title: Test
         document.getElementById("orologio").innerHTML = tempo;
     }
 
+    var interval;
+
     function stop() {
         clearInterval(Interval);
     }
@@ -34,9 +36,8 @@ title: Test
     function reset() {
         clearInterval(Interval);
         tempo = 0;
+        document.getElementById("orologio").innerHTML = tempo;
     }
-
-    var interval;
 
     function interval() {
         interval = setInterval(start, 1000);
@@ -53,4 +54,3 @@ title: Test
 <button type="button" onclick='interval()'>START</button>
 <button type="button" onclick='stop()'>STOP</button>
 <button type="button" onclick='reset()'>RESET</button>
-

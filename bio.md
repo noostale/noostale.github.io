@@ -7,7 +7,3 @@ Mi chiamo Emanuele e sono uno studente di Ingegneria Informatica presso l'Univer
 
 ## Contatti:
 [Email](mailto:emanuele.frasca.00@gmail.com) - [Github](https://github.com/noostale) - [Twitter](https://twitter.com/noostale)
-
-<p id="demo">JavaScript can change HTML content.</p>
-
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
