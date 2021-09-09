@@ -3,6 +3,16 @@ layout: default
 title: Test
 ---
 
-<p id="demo">JavaScript can change HTML content.</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<script>
+    var x = 0;
+    function func(){
+        document.getElementById("numero").innerHTML = x ;
+        x = x + 1;
+    }
+    
+</script>
+
+<button type="button" onclick='func()'>+</button>
+<button type="button" onclick='func()'>-</button>
+<p id="numero"></p>
