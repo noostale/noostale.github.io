@@ -13,8 +13,30 @@ title: Test
         x = x - 1;
         document.getElementById("numero").innerHTML = x;
     }
+
+    var tempo = 0;
+
+    function start(){
+        tempo += 1;
+        document.getElementById("orologio").innerHTML = tempo;
+    }
+
+    funcion interval(){
+        setInterval(start, 10);
+    }
+
+    
+
+
 </script>
 
 <button type="button" onclick='piu()'>+</button>
 <p id="numero">0</p>
 <button type="button" onclick='meno()'>-</button>
+
+
+<p id="orologio">00</p>
+<button type="button" onclick='interval()'>START</button>
+<button type="button" onclick='piu()'>STOP</button>
+<button type="button" onclick='piu()'>RESET</button>
+
