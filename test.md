@@ -46,6 +46,7 @@ title: Test
 
 </script>
 
+<center>
 <button type="button" onclick='piu()'>+</button>
 <p id="numero">0</p>
 <button type="button" onclick='meno()'>-</button>
@@ -55,3 +56,4 @@ title: Test
 <button type="button" onclick='interval()'>START</button>
 <button type="button" onclick='stop()'>STOP</button>
 <button type="button" onclick='reset()'>RESET</button>
+</center>
