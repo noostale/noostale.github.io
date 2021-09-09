@@ -49,8 +49,8 @@ title: Test
 <button type="button" onclick='meno()'>-</button>
 
 
-<p id="orologio">00</p>
+<p id="orologio">0</p>
 <button type="button" onclick='interval()'>START</button>
-<button type="button" onclick='piu()'>STOP</button>
-<button type="button" onclick='piu()'>RESET</button>
+<button type="button" onclick='stop()'>STOP</button>
+<button type="button" onclick='reset()'>RESET</button>
 
