@@ -21,10 +21,10 @@ title: Test
         document.getElementById("orologio").innerHTML = tempo;
     }
 
-    var interval;
+    
 
-    funcion interval() {
-        interval = setInterval(start, 1000);
+    function interval() {
+        setInterval(start, 1000);
     }
 
     
