@@ -30,11 +30,11 @@ title: Test
     var interval;
 
     function stop() {
-        clearInterval(Interval);
+        clearInterval(interval);
     }
 
     function reset() {
-        clearInterval(Interval);
+        clearInterval(interval);
         tempo = 0;
         document.getElementById("orologio").innerHTML = tempo;
     }
