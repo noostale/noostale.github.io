@@ -48,11 +48,11 @@ title: Test
 
 
 <button type="button" onclick='piu()'>+</button>
-<p id="numero" style="font-size:7vw">0</p>
+<p id="numero" style="font-size:25px">0</p>
 <button type="button" onclick='meno()'>-</button>
-
-<br></BR>
-<p id="orologio">0</p>
+<br>
+<br>
+<p id="orologio" style="font-size:25px">0</p>
 <button type="button" onclick='interval()' >START</button>
 <button type="button" onclick='stop()'>STOP</button>
 <button type="button" onclick='reset()'>RESET</button>
