@@ -18,7 +18,7 @@ title: Test
         document.getElementById("numero").innerHTML = x;
     }
 
-    // OROLOGIO
+    // OROLOGIO pull
 
     var tempo = 0;
 
@@ -56,3 +56,11 @@ title: Test
 <button type="button" onclick='interval()' >START</button>
 <button type="button" onclick='stop()'>STOP</button>
 <button type="button" onclick='reset()'>RESET</button>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, 150, 100);
+</script>
