@@ -19,4 +19,4 @@ Progetti ed organizzazioni supportate:
 - Rust Programming Language
 - Python
 
-Il sito è hostato su Github e realizzato per mezzo di Jekyll.
+Il sito è hostato su Github e realizzato per mezzo di Jekyll. [TEST PAGE](https://noostale.github.io/test.html)
