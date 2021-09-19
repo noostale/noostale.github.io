@@ -12,13 +12,13 @@ Cosiglio vivamente la lettura di [Il Post](https://www.ilpost.it/).
 Attualmenete sono interessato al funzionamento e alle possibili applicazioni delle blockchain in ambito economico e videoludico.
 
 Progetti ed organizzazioni supportate:
-- Internet Archive
-- Wikimedia Foundation
-- Free Software Fondation
-- RISC-V International
-- Mozilla
-- Ethereum
-- Rust Programming Language
-- Python
+- [Internet Archive](https://archive.org/)
+- [Wikimedia Foundation](https://wikimediafoundation.org/)
+- [Free Software Fondation](https://www.fsf.org/)
+- [RISC-V International](https://riscv.org/)
+- [Mozilla](https://www.mozilla.org/)
+- [Ethereum](https://ethereum.org/)
+- [Rust Programming Language](https://www.rust-lang.org/)
+- [Python](https://www.python.org/)
 
 Il sito è hostato su Github e realizzato per mezzo di Jekyll. [TEST PAGE](https://noostale.github.io/test.html)
