@@ -12,6 +12,7 @@ Cosiglio vivamente la lettura di [Il Post](https://www.ilpost.it/).
 Attualmenete sono interessato al funzionamento e alle possibili applicazioni delle blockchain in ambito economico e videoludico.
 
 Progetti ed organizzazioni supportate:
+- Internet Archive
 - Wikimedia Foundation
 - Free Software Fondation
 - RISC-V International
