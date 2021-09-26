@@ -88,6 +88,39 @@ ol {
 
 
 /*responsive design*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #intro{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .logo {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    p {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    ul {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    ol {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
 @media (max-width:1024px) {
     #intro{
         margin-left: 5%;
