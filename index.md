@@ -17,6 +17,8 @@ Progetti ed organizzazioni supportate:
 - [Free Software Fondation](https://www.fsf.org/)
 - [RISC-V International](https://riscv.org/)
 - [Mozilla](https://www.mozilla.org/)
+- [Blender Foundation](https://www.blender.org/)
+- [Godot Engine](https://godotengine.org/)
 - [Ethereum](https://ethereum.org/)
 - [Rust Programming Language](https://www.rust-lang.org/)
 - [Python](https://www.python.org/)
