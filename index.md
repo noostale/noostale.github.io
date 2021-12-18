@@ -10,7 +10,7 @@ Salve, in questo sito personale mi diletto nella programmazione web ed esprimo a
 Cosiglio vivamente la lettura di [Il Post](https://www.ilpost.it/).
 
 ## 18/12/2021
-Attualmenete sono interessato al funzionamento e alle possibili applicazioni delle blockchain in ambito economico e videoludico. Sto inoltre ampliando le mie conoscenze e competenze nel disegno, nelle modellazione 3D e nell'uso di Game Engine. Penso che con il continuo ampliarsi dell'interesse nei confronti del metaverso chi sappia parlare il linguaggio tridimensionale digitale avrà dei veri e prorpi vantaggi. Consiglio come primo approccio al software Blender i tutorial di [Blender Guru](https://www.youtube.com/c/blenderguruofficial).
+Attualmenete sono interessato al funzionamento e alle possibili applicazioni delle blockchain in ambito economico e videoludico. Sto inoltre ampliando le mie conoscenze e competenze nel disegno, nelle modellazione 3D e nell'uso di Game Engine. Penso che con il continuo ampliarsi dell'interesse nei confronti del metaverso chi sappia parlare il linguaggio tridimensionale digitale avrà dei veri e propri vantaggi. Consiglio come primo approccio al software Blender i tutorial di [Blender Guru](https://www.youtube.com/c/blenderguruofficial).
 
 Progetti ed organizzazioni supportate:
 - [Internet Archive](https://archive.org/)
