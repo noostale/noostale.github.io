@@ -85,35 +85,19 @@
     {
       "name": "Programming Languages",
       "level": "Expert",
-      "keywords": [
-        "Python",
-        "C",
-        "C++",
-        "Javascript",
-        "SQL",
-        "Scala"
-      ]
+      "keywords": ["Python", "C", "C++", "Javascript", "SQL", "Scala"]
     },
     {
       "name": "Software Development Tools",
-      "keywords": [
-        "Git",
-        "Docker"
-      ]
+      "keywords": ["Git", "Docker"]
     },
     {
       "name": "Hardware Platforms",
-      "keywords": [
-        "Raspberry Pi",
-        "Arduino"
-      ]
+      "keywords": ["Raspberry Pi", "Arduino"]
     },
     {
       "name": "Language Proficiency",
-      "keywords": [
-        "English (B2)",
-        "Italian (native)"
-      ]
+      "keywords": ["English (B2)", "Italian (native)"]
     }
   ],
   "projects": [
@@ -124,10 +108,7 @@
         "Implemented a Computer Vision algorithm for atomic segmentation of expression elements.",
         "Conducted detailed research on model optimization by implementing k-fold cross-validation."
       ],
-      "keywords": [
-        "Python",
-        "AI"
-      ],
+      "keywords": ["Python", "AI"],
       "startDate": "2022-12-01",
       "endDate": "2023-01-01"
     },
@@ -138,10 +119,7 @@
         "Utilized data augmentation to enhance model robustness and minimize overfitting.",
         "Implemented a training and testing pipeline to evaluate and compare model performance."
       ],
-      "keywords": [
-        "Python",
-        "Computer Vision"
-      ],
+      "keywords": ["Python", "Computer Vision"],
       "startDate": "2024-06-01",
       "endDate": "2024-07-23"
     }
