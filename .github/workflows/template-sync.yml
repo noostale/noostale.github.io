@@ -5,6 +5,13 @@ on:
     - cron: "0 0 1 * *"
   # manual trigger
   workflow_dispatch:
+
+
+# Set permissions for the GitHub token
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
