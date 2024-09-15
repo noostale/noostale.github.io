@@ -6,7 +6,6 @@ on:
   # manual trigger
   workflow_dispatch:
 
-
 # Set permissions for the GitHub token
 permissions:
   contents: write
