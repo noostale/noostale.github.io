@@ -8,4 +8,5 @@ cv_pdf:
 description: Personal Curriculum Vitae
 toc:
   sidebar: left
+published: false
 ---

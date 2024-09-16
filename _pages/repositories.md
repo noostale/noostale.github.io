@@ -5,6 +5,7 @@ title: repositories
 description: Personal repositories on GitHub
 nav: true
 nav_order: 4
+published: false
 ---
 
 ## GitHub users
