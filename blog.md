@@ -1,12 +1,10 @@
 ---
 title: Blog
 layout: page
-description: Blog posts on topics that interest me
+description: Blog posts
 ---
 
-Writings on topics that interest me. There is no underlying theme, but in
-general I write about sustainable software, cybersecurity, personal finance,
-productivity and minimalism.
+List of blog posts:
 
 {% for post in site.posts %}
 <p>
