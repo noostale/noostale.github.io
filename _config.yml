@@ -1,6 +1,6 @@
 # General
 title:          Emanuele Frasca
-description:    Computer Engineering, Artificial Intelligence
+description:    Computer and Artificial Intelligence Engineer
 url:            https://noostale.github.io/
 baseurl:        ""
 
@@ -14,7 +14,7 @@ sass:
 
 # Contact
 author:
-  name: César Ferradas
+  name: Emanuele Frasca
   contacts:
     - name: GitHub
       url: https://github.com/noostale
