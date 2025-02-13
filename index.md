@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi, I'm **Emanuele**.
+Hi, I'm Emanuele.
 
 I'm a computer engineer from Italy, currently studying *Artificial Intelligence and Robotics* at the *University of Rome "La Sapienza"*.
 
