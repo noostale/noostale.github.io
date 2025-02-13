@@ -4,10 +4,22 @@ layout: default
 
 Hello! My name is **Emanuele Frasca**. I'm from Italy.
 
-I'm a computer engineer, currently studying Artificial Intelligence and Robotics at the University of Rome "La Sapienza".
+I'm a computer engineer, currently studying *Artificial Intelligence and Robotics* at the *University of Rome "La Sapienza"*.
+
+My main interests are in the fields of:
+- Deep Learning
+- Representation Learning
+- Geometric Deep Learning
+- Explainable AI
+- Natural Language Processing
+- Deep Reinforcement Learning
 
 
-{if site.posts.size > 0}
+How to reach me:
+[GitHub](https://github.com/noostale) \| [LinkedIn](https://www.linkedin.com/in/emanuele-frasca) \| [Twitter](https://twitter.com/noostale)
+
+
+{% if site.posts.size > 0 %}
   ## List of blog posts
   {% for post in site.posts %}
   <p>
@@ -16,3 +28,4 @@ I'm a computer engineer, currently studying Artificial Intelligence and Robotics
     <small>{{ post.date | date_to_string }}</small>
   </p>
   {% endfor %}
+{% endif %}
