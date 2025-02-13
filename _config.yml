@@ -1,7 +1,7 @@
 # General
 title:          Emanuele Frasca
 description:    Computer and Artificial Intelligence Engineer
-url:            https://noostale.github.io/
+url:            https://noostale.github.io
 baseurl:        ""
 
 # Navigation
@@ -29,6 +29,11 @@ plugins:
   - jekyll-sitemap
 
 highlighter: rouge
+
+livereload: true
+
+
+
 
 exclude:
   - new_post.sh
