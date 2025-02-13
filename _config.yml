@@ -1,8 +1,8 @@
 # General
 title:          Emanuele Frasca
 description:    Computer Engineering, Artificial Intelligence
-url:            https://emanuelef.github.io
-baseurl:        ""
+url:            https://noostale.github.io/
+baseurl:        /emanuelefrasca
 
 # Navigation
 permalink:      /:slug
@@ -17,14 +17,11 @@ author:
   name: César Ferradas
   contacts:
     - name: GitHub
-      url: https://github.com/cesarferradas
-      handle: cesarferradas
+      url: https://github.com/noostale
+      handle: noostale
     - name: LinkedIn
-      url: https://www.linkedin.com/in/cesarferradas
-      handle: César Ferradas
-    - name: Hacker News
-      url: https://news.ycombinator.com/user?id=ferradas
-      handle: ferradas
+      url: https://www.linkedin.com/in/emanuelefrasca/
+      handle: Emanuele Frasca
 
 # Gems
 plugins:
