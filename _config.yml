@@ -1,8 +1,8 @@
 # General
 title:          Emanuele Frasca
 description:    Computer Engineering, Artificial Intelligence
-url:            https://noostale.github.io/
-baseurl:        /emanuelefrasca
+url:            https://noostale.github.io/emanuelefrasca
+baseurl:        ""
 
 # Navigation
 permalink:      /:slug
