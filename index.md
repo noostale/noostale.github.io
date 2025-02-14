@@ -16,11 +16,6 @@ My main interests are in the fields of:
 - Natural Language Processing
 - Deep Reinforcement Learning
 
-
-How to reach me:
-[GitHub](https://github.com/noostale) \| [LinkedIn](https://www.linkedin.com/in/emanuele-frasca) \| [Twitter](https://twitter.com/noostale)
-
-
 {% if site.posts.size > 0 %}
   ## List of blog posts
   {% for post in site.posts %}

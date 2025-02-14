@@ -7,6 +7,9 @@
     <link rel="icon" type="image/png" href="{{ 'assets/icons/favicon-96x96.png' | absolute_url }}" sizes="96x96" />
     <link rel="shortcut icon" href="{{ 'assets/icons/favicon.ico' | absolute_url }}" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {% if page.title -%}
@@ -54,22 +57,19 @@
   </head>
   <body>
     <header><a href="/">{{ site.title }}</a></header>
-    {% comment %}
     <nav>
-      <a href="/about">About</a>
-      <a href="/blog">Blog</a>
-      <a href="/contact">Contact</a>
+      <i class="fab fa-github"></i> <a href="https://github.com/noostale" target="_blank">GitHub</a> 
+      <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/emanuele-frasca" target="_blank">LinkedIn</a> 
+      <i class="fab fa-twitter"></i> <a href="https://twitter.com/noostale" target="_blank">Twitter</a>
     </nav>
-    {% endcomment %}
     <hr>
     <main>
       {{ content -}}
     </main>
+    <footer><p>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</p></footer>
+
     {% if page.id -%}
       <script src="{{ '/assets/js/anchors.js' | absolute_url }}"></script>
     {% endif -%}
-    <footer>
-      <p>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</p>
-    </footer>
   </body>
 </html>
