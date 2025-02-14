@@ -20,7 +20,7 @@ author:
       url: https://github.com/noostale
       handle: noostale
     - name: LinkedIn
-      url: https://www.linkedin.com/in/emanuelefrasca/
+      url: https://www.linkedin.com/in/emanuele-frasca/
       handle: Emanuele Frasca
 
 # Gems
@@ -31,9 +31,6 @@ plugins:
 highlighter: rouge
 
 livereload: true
-
-
-
 
 exclude:
   - new_post.sh

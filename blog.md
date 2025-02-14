@@ -4,7 +4,7 @@ layout: page
 description: Blog posts
 ---
 
-List of blog posts:
+List of my blog posts:
 
 {% for post in site.posts %}
 <p>
