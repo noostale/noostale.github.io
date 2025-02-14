@@ -46,26 +46,27 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-
-    <!-- {% if page.id -%}
-      <link rel="stylesheet" href="{{ '/_sass/x.css' | absolute_url }}">
-    {% endif -%} -->
+    {% comment %}
+      {% if page.id -%}
+        <link rel="stylesheet" href="{{ '/_sass/x.css' | absolute_url }}">
+      {% endif -%}
+    {% endcomment %}
   </head>
   <body>
     <header><a href="/">{{ site.title }}</a></header>
-    <!--
+    {% comment %}
     <nav>
       <a href="/about">About</a>
       <a href="/blog">Blog</a>
       <a href="/contact">Contact</a>
     </nav>
-    -->
+    {% endcomment %}
     <hr>
     <main>
       {{ content -}}
     </main>
     {% if page.id -%}
-      <script src="{{ '/assets/js/anchors.js' | absolute_url }}"></script>
+      <script src="{% asset 'js/anchors.js' %}"></script>
     {% endif -%}
   </body>
 </html>

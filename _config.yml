@@ -27,6 +27,7 @@ author:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-assets
 
 highlighter: rouge
 
