@@ -4,31 +4,46 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | absolute_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     {% if page.title -%}
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+      <title>{{ page.title }} | {{ site.title }}</title>
+      <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
     {% else -%}
-    <title>{{ site.title }} | {{ site.description }}</title>
-    <meta property="og:title" content="{{ site.title }}">
+      <title>{{ site.title }} | {{ site.description }}</title>
+      <meta property="og:title" content="{{ site.title }}">
     {% endif -%}
+
+    {% if page.description -%}
+      <meta name="description" content="{{ page.description }}">
+    {% elsif page.excerpt -%}
+      <meta name="description" content="{{ page.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip }}">
+    {% else -%}
+      <meta name="description" content="{{ site.description }}">
+    {% endif -%}
+
+
     {% if page.excerpt -%}
-    <meta property="og:description" content="{{ page.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip }}">
+      <meta property="og:description" content="{{ page.excerpt | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | strip }}">
     {% elsif page.description -%}
-    <meta property="og:description" content="{{ page.description }}">
+      <meta property="og:description" content="{{ page.description }}">
     {% else -%}
-    <meta property="og:description" content="{{ site.description }}">
+      <meta property="og:description" content="{{ site.description }}">
     {% endif -%}
+
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
     {% if page.id -%}
-    <meta property="og:type" content="article">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | absolute_url }}">
+      <meta property="og:type" content="article">
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | absolute_url }}">
     {% else -%}
-    <meta property="og:type" content="website">
+      <meta property="og:type" content="website">
     {% endif -%}
+
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="stylesheet" href="/s/s.css">
+    <link rel="stylesheet" href="{{ '/s/s.css' | absolute_url }}">
+
     {% if page.id -%}
-    <link rel="stylesheet" href="/s/x.css">
+      <link rel="stylesheet" href="{{ '/s/x.css' | absolute_url }}">
     {% endif -%}
   </head>
   <body>
@@ -39,13 +54,13 @@
       <a href="/blog">Blog</a>
       <a href="/contact">Contact</a>
     </nav>
-     -->
+    -->
     <hr>
     <main>
       {{ content -}}
     </main>
     {% if page.id -%}
-    <script src="/s/anchors.js"></script>
+      <script src="{{ '/s/anchors.js' | absolute_url }}"></script>
     {% endif -%}
   </body>
 </html>
