@@ -1,5 +1,6 @@
 ---
 layout: default
+description: emanuele frasca, computer engineer, artificial intelligence, robotics, deep learning, representation learning, geometric deep learning, explainable ai, natural language processing, deep reinforcement learning
 ---
 
 Hi, I'm Emanuele.
