@@ -7,11 +7,20 @@
     font-family: system-ui, sans-serif;
 }
 
+footer {
+    font-size: 0.7em;
+    position: fixed;
+    bottom: 0; /* Fix footer to the bottom */
+    width: 100%; /* Ensure footer spans the entire width */
+    padding: 10px; /* Add some padding for aesthetics */
+}
+
 * {
     box-sizing: border-box;
     background-color: var(--bg);
     color: var(--fg);
 }
+
 
 body {
     margin: 0 auto;

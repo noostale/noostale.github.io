@@ -68,5 +68,8 @@
     {% if page.id -%}
       <script src="{% asset 'js/anchors.js' %}"></script>
     {% endif -%}
+    <footer>
+      <p>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</p>
+    </footer>
   </body>
 </html>

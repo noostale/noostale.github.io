@@ -1,7 +1,7 @@
 ---
 layout: default
 description: Home page of Emanuele Frasca's personal website
-last_modified_at: "2025-02-14"
+updated_at: "2025-02-14"
 ---
 
 Hi, I'm Emanuele.
@@ -30,4 +30,5 @@ How to reach me:
     <small>{{ post.date | date_to_string }}</small>
   </p>
   {% endfor %}
+
 {% endif %}
