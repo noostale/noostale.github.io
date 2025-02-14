@@ -44,11 +44,12 @@
     {% endif -%}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="stylesheet" href="{{ '/_sass/s.css' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-    {% if page.id -%}
+
+    <!-- {% if page.id -%}
       <link rel="stylesheet" href="{{ '/_sass/x.css' | absolute_url }}">
-    {% endif -%}
+    {% endif -%} -->
   </head>
   <body>
     <header><a href="/">{{ site.title }}</a></header>
@@ -64,7 +65,7 @@
       {{ content -}}
     </main>
     {% if page.id -%}
-      <script src="{{ '/_sass/anchors.js' | absolute_url }}"></script>
+      <script src="{{ '/assets/js/anchors.js' | absolute_url }}"></script>
     {% endif -%}
   </body>
 </html>
