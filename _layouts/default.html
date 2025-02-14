@@ -66,7 +66,7 @@
       {{ content -}}
     </main>
     {% if page.id -%}
-      <script src="{% asset 'js/anchors.js' %}"></script>
+      <script src="{{ '/assets/js/anchors.js' | absolute_url }}"></script>
     {% endif -%}
     <footer>
       <p>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</p>
