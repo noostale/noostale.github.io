@@ -52,8 +52,6 @@
       {% endif -%}
     {% endcomment %}
 
-    <script src="{{ '/assets/js/fontawesome.js' | absolute_url }}"></script>
-    <script src="{{ '/assets/js/brands.js' | absolute_url }}"></script>
   </head>
   <body>
     <header><a href="/">{{ site.title }}</a></header>
@@ -84,6 +82,10 @@
       {{ content -}}
     </main>
     <footer><p>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</p></footer>
+
+
+    <script src="{{ '/assets/js/fontawesome.min.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/js/brands.js' | absolute_url }}"></script>
 
     {% if page.id -%}
       <script src="{{ '/assets/js/anchors.js' | absolute_url }}"></script>
