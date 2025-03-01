@@ -104,6 +104,11 @@ button, input[type=submit] {
     cursor: pointer;
 }
 
+
+.nav-icons a:hover {
+    text-decoration: none; /* Ensures underline does not appear on hover */
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --bg: #15161b;
