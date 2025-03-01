@@ -52,15 +52,26 @@
       {% endif -%}
     {% endcomment %}
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="{{ '/assets/js/fontawesome.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/js/brands.js' | absolute_url }}"></script>
   </head>
   <body>
     <header><a href="/">{{ site.title }}</a></header>
+
     <nav>
-      <i class="fab fa-github"></i> <a href="https://github.com/noostale" target="_blank">GitHub</a> 
-      <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/emanuele-frasca" target="_blank">LinkedIn</a> 
-      <i class="fab fa-twitter"></i> <a href="https://twitter.com/noostale" target="_blank">Twitter</a>
+      <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/readings">Readings</a>
+      </div>
+      
+      <div class="nav-icons">
+          <a href="https://github.com/noostale" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+          <a href="https://www.linkedin.com/in/emanuele-frasca" target="_blank"> <i class="fab fa-github"></i> </a>
+          <a href="https://twitter.com/noostale" target="_blank"> <i class="fab fa-twitter"></i> </a>
+      </div>
     </nav>
+  
+
     <hr>
     <main>
       {{ content -}}

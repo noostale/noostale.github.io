@@ -66,8 +66,10 @@ footer {
 }
 
 nav {
-    margin-left: 2px;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 nav a {
     margin-right: 12px;
