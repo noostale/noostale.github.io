@@ -75,7 +75,7 @@
         <a href="https://twitter.com/noostale" target="_blank" aria-label="Twitter Profile">
             <i class="fab fa-twitter" title="Twitter"></i>
         </a>
-    </div>
+      </div>
     
     </nav>
   
@@ -84,7 +84,8 @@
     <main>
       {{ content -}}
     </main>
-    <footer><p>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</p></footer>
+    
+    <footer>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</footer>
 
 
     {% if page.id -%}

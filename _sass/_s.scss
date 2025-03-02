@@ -20,14 +20,14 @@ body {
     padding: 20px;
 }
 
-h1 {
-    font-size: 30px;
-}
-
 h1, h2, h3, h4 {
     line-height: 1.2;
     font-weight: 550;
     margin-bottom: 0;
+}
+
+h1 {
+    font-size: 30px;
 }
 
 input, textarea, pre {
@@ -68,8 +68,8 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end; /* Aligns items to the bottom */
 }
-
 
 nav a {
     margin-right: 12px;
@@ -104,9 +104,13 @@ button, input[type=submit] {
     cursor: pointer;
 }
 
+.nav-icons a {
+    margin-right: 0px;
+    margin-left: 12px;
+}
 
 .nav-icons a:hover {
-    text-decoration: none; /* Ensures underline does not appear on hover */
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
