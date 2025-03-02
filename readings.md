@@ -12,5 +12,5 @@ updated_at: "2025-03-01"
 
 ### Products
 
-[Proton](https://proton.me/)
+[Proton](https://proton.me/)  
 [SimpleLogin](https://simplelogin.io/)
