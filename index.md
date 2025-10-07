@@ -6,7 +6,7 @@ updated_at: "2025-07-10"
 
 Hi, I'm Emanuele.
 
-I'm a computer engineer from Italy, currently pursuing a master's degree *Artificial Intelligence and Robotics* at *Sapienza University of Rome*.
+I'm a computer engineer from Italy, currently pursuing a master's degree in *Artificial Intelligence and Robotics* at *Sapienza University of Rome*.
 
 My main interests lie in:
 - Representation Learning
