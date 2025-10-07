@@ -21,6 +21,3 @@ plugins:
 highlighter: rouge
 
 livereload: true
-
-exclude:
-  - new_post.sh

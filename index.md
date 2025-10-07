@@ -9,10 +9,7 @@ Hi, I'm Emanuele.
 I'm a computer engineer from Italy, currently studying *Artificial Intelligence and Robotics* at the *University of Rome "La Sapienza"*.
 
 My main interests are in the fields of:
-- Deep Learning
 - Representation Learning
-- Geometric Deep Learning
-- Explainable AI
 - Natural Language Processing
 - Deep Reinforcement Learning
 
