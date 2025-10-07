@@ -72,17 +72,15 @@
             <i class="fab fa-linkedin" title="LinkedIn"></i>
         </a>
       </div>
-    
     </nav>
   
-
     <hr>
+
     <main>
       {{ content -}}
     </main>
     
     <footer>Page updated on {{ page.updated_at | date: '%B %d, %Y' }}</footer>
-
 
     {% if page.id -%}
       <script src="{{ '/assets/js/anchors.js' | absolute_url }}"></script>
