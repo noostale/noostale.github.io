@@ -6,7 +6,7 @@ updated_at: "2025-07-10"
 
 Hi, I'm Emanuele.
 
-I'm a Computer Engineer from Italy, currently pursuing a PhD in Artificial Intelligence within the National PhD Program in AI at Sapienza University of Rome, hosted by the Bruno Kessler Foundation (FBK).
+I'm a Computer Engineer from Italy, currently pursuing a PhD in Artificial Intelligence at Sapienza University of Rome, hosted by the Bruno Kessler Foundation (FBK).
 
 My main interests lie in:
 - Representation Learning
