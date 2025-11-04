@@ -13,7 +13,7 @@ My main interests lie in:
 - Natural Language Processing
 - Deep Reinforcement Learning
 
-Check out my projects on [GitHub](https://github.com/noostale), or connect with me on [LinkedIn](https://www.linkedin.com/in/emanuelefrasca/).  
+Check out my projects on [GitHub](https://github.com/noostale), or connect with me on [LinkedIn](https://www.linkedin.com/in/emanuele-frasca/).  
 You can also reach me via email at <a href="mailto:emanuele&#46;frasca&#46;00&#64;gmail&#46;com">emanuele.frasca.00@gmail.com</a>.
 
 {% if site.posts.size > 0 %}
