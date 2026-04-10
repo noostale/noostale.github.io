@@ -1,7 +1,7 @@
 ---
 layout: default
-description: Personal publications of Emanuele Frasca.
-updated_at: "2025-11-04"
+description: Personal publications of Emanuele Frasca
+updated_at: "2026-03-10"
 ---
 
 *Here are my personal publications. For a complete list, please refer to [Google Scholar](https://scholar.google.com/citations?user=Zt9sXoAAAAJ&hl=en).*

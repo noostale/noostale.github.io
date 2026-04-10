@@ -1,7 +1,7 @@
 ---
 layout: default
 description: Home page of Emanuele Frasca's personal website
-updated_at: "2025-11-04"
+updated_at: "2026-03-10"
 ---
 
 Hi, I'm Emanuele.
